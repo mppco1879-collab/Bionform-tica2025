@@ -226,3 +226,4 @@ heatmap.2(filtered, Rowv=rowv, Colv=colv, cexCol=0.7,col = redgreen(75), scale =
 
 # Guardamos los genes diferencialmente expresados y filtrados en un fichero
 write.table (filtered, "GSE5583_DE.txt", sep = "\t",quote = FALSE)
+
